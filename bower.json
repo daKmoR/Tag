@@ -1,0 +1,20 @@
+{
+  "name": "Tag",
+  "description": "Create HTML Tags easily via options",
+  "authors": [
+    "Thomas Allmer <d4kmor@gmail.com>"
+  ],
+  "keywords": [
+    "php",
+    "html generator"
+  ],
+  "demos": {
+    "Demo": "demo/index.php"
+  },
+  "dependencies": {
+    "OptionsClass": "daKmoR/OptionsClass",
+    "Url": "daKmoR/Url",
+    "Text": "daKmoR/Text",
+    "ArrayHelper": "daKmoR/ArrayHelper"
+  }
+}
