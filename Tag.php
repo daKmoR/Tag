@@ -425,7 +425,7 @@
 		public static function aPhone($number, $content = null, $options = array()) {
 			$options['_defaultClass'] = isset($options['_defaultClass']) ? $options['_defaultClass'] : 'link link--tel tel';
 			$defaultCountry = isset($options['_defaultCountry']) ? $options['_defaultCountry'] : '0043';
-			$url = 'tel:' . Format::getCleanPhoneNumber($number, $defaultCountry);
+			$url = 'tel:' . Text::getCleanPhoneNumber($number, $defaultCountry);
 			$content = isset($content) ? $content : $number;
 
 			$options['_type'] = 'render';
